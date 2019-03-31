@@ -27,7 +27,7 @@ Place `sabbracadabra-theme.el` in a folder in your Emacs' `custom-theme` load pa
 
 It can be applied with
 
-    M-x load-theme RET planet
+    M-x load-theme RET sabbracadabra
 
 or by default in your `.emacs` file with
 
