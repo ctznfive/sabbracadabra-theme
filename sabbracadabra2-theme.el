@@ -1,9 +1,9 @@
-;;; sabbracadabra-theme.el 
-;;; Emacs theme with a dark background and nice colors
+;;; sabbracadabra2-theme.el --- Emacs theme with a dark background and nice colors
 
 ;; Author: Oleg Pronyuk
 ;; URL: <https://github.com/ctznfive/sabbracadabra-theme>
 
+;; Version: 0.1
 ;; Keywords: color, theme, dark
 ;; Package-Requires: ((emacs "24"))
 
@@ -12,7 +12,7 @@
 ;;; Code:
 
 
- (deftheme sabbracadabra)
+ (deftheme sabbracadabra2)
  (let ((class '((class color) (min-colors 89)))
        (fg1 "#dddddd")
        (fg2 "#7b7b7b")
@@ -34,7 +34,7 @@
        (var     "#1ea77a")
        (warning "#ff6523"))
    (custom-theme-set-faces
-   'sabbracadabra
+   'sabbracadabra2
         `(default ((,class (:background ,bg1 :foreground ,fg1))))
         `(font-lock-builtin-face ((,class (:foreground ,builtin))))
         `(font-lock-comment-face ((,class (:foreground ,comment))))
@@ -231,11 +231,11 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'sabbracadabra)
+(provide-theme 'sabbracadabra2)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
 
-;;; sabbracadabra-theme.el ends here
+;;; sabbracadabra2-theme.el ends here
 

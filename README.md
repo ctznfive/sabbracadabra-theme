@@ -1,8 +1,12 @@
-# SabbraCadabra Theme for Emacs 24 #
+# SabbraCadabra Theme for Emacs 24+ #
 
+## Option 1 (medium contrast) ##
 
-![](https://raw.github.com/ctznfive/sabbracadabra-theme/master/screenshot.png)
+![](https://raw.github.com/ctznfive/sabbracadabra-theme/master/screenshot1.png)
 
+## Option 2 (low contrast) ##
+
+![](https://raw.github.com/ctznfive/sabbracadabra-theme/master/screenshot2.png)
 
 
 ## Introduction ##
@@ -12,7 +16,7 @@ I decided to make a custom theme for my daily workflow.
 
 I hope you enjoy this theme.
 
-This theme is being testing with Emacs 24.
+This theme is being testing with Emacs 24+.
 
 
 
@@ -21,15 +25,15 @@ This theme is being testing with Emacs 24.
 
 Download from [on Github](https://github.com/ctznfive/sabbracadabra-theme).
 
-Place `sabbracadabra-theme.el` in a folder in your Emacs' `custom-theme` load path:
+Place `sabbracadabra1-theme.el` and/or `sabbracadabra2-theme.el` in a folder in your Emacs' `custom-theme` load path:
 
     (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 
-It can be applied with
+It can be applied by default in your `.emacs` file with
 
-    M-x load-theme RET sabbracadabra
+    (load-theme 'sabbracadabra1 t)
 
-or by default in your `.emacs` file with
+or
 
-    (load-theme 'sabbracadabra t)
+    (load-theme 'sabbracadabra2 t)
 
