@@ -1,4 +1,4 @@
-# SabbraCadabra Theme for Emacs 24+ #
+# SabbraCadabra Theme for Emacs #
 
 ## Introduction ##
 
