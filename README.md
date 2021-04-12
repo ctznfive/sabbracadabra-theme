@@ -1,14 +1,5 @@
 # SabbraCadabra Theme for Emacs 24+ #
 
-## Option 1 (medium contrast) ##
-
-![](https://raw.github.com/ctznfive/sabbracadabra-theme/master/screenshot1.png)
-
-## Option 2 (low contrast) ##
-
-![](https://raw.github.com/ctznfive/sabbracadabra-theme/master/screenshot2.png)
-
-
 ## Introduction ##
 
 Since I couldn't find anything that would satisfy my taste,
@@ -20,10 +11,18 @@ This theme is being testing with Emacs 24+.
 
 
 
+## Option 1 (medium contrast) ##
+
+![](https://raw.github.com/ctznfive/sabbracadabra-theme/master/screenshot1.png)
+
+## Option 2 (low contrast) ##
+
+![](https://raw.github.com/ctznfive/sabbracadabra-theme/master/screenshot2.png)
+
+
+
 ## Installation ##
 
-
-Download from [on Github](https://github.com/ctznfive/sabbracadabra-theme).
 
 Place `sabbracadabra1-theme.el` and/or `sabbracadabra2-theme.el` in a folder in your Emacs' `custom-theme` load path:
 
